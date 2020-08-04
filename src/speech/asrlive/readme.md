@@ -10,8 +10,8 @@ composer i
 
 ## configs
 ```php
-$baseUrl= 'https://api.amerandish.com/v1';
-$actionUrl= '/speech/asr';
+$baseUrl= 'wss://api.amerandish.com/v1';
+$actionUrl= '/speech/asrlive';
 $authKey= '<YOUR_API_KEY>';
 
 $filePath = '<YOUR_WAV_FILE_PATH>';
